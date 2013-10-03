@@ -136,6 +136,10 @@ class FlatFeeShippingRate_Admin extends ShopAdmin {
     'ShopConfig/FlatFeeShipping/FlatFeeShippingSettingsForm' => 'FlatFeeShippingSettingsForm',
     'ShopConfig/FlatFeeShipping' => 'FlatFeeShippingSettings'
   );
+  
+  private static $allowed_actions = array(
+    'FlatFeeShippingSettings'
+  );
 
   public function init() {
 		parent::init();
