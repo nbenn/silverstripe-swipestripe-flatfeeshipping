@@ -138,7 +138,8 @@ class FlatFeeShippingRate_Admin extends ShopAdmin {
   );
   
   private static $allowed_actions = array(
-    'FlatFeeShippingSettings'
+    'FlatFeeShippingSettings',
+    'FlatFeeShippingSettingsForm'
   );
 
   public function init() {
